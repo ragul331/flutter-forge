@@ -1,0 +1,7 @@
+project_id = "nlpowqrypdbvtwkdlrwg"
+
+[functions.trigger-build]
+verify_jwt = false
+
+[functions.update-status]
+verify_jwt = false
