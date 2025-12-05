@@ -133,7 +133,7 @@ export function BuildTable() {
                             className="gap-1"
                           >
                             <a
-                              href={`https://github.com/${import.meta.env.VITE_GITHUB_OWNER || 'owner'}/${import.meta.env.VITE_GITHUB_REPO || 'repo'}/actions/runs/${build.github_run_id}`}
+                              href={build.artifact_url || `https://github.com/actions/runs/${build.github_run_id}`}
                               target="_blank"
                               rel="noopener noreferrer"
                             >
